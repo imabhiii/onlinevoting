@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1178);
+}
+.nav__li{
+    padding: 15px;
+}
+.nav__a{
+    text-decoration: none;
+    color: white;
+    text-decoration: 700;
+}
+.nav__a:hover{
+    text-decoration: none;
+    color: white;
+}
+.VotingBtn{
+    padding: 12px 24px;
+    background-image: linear-gradient(to right, #a517ba,#5f1178);
+    color: White;
+    border-radius: 6px;
+    border: 2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+}
+.VotingBtn:hover{
+    transform: scale(1.1);
+    background-color: rgb(132, 223, 41);
+}
+.VotingBtn.active{
+    transform: scale(0.9);
+}
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1178);
+    color: white;
+    padding-top: 5%;
+}
+.BannerH1{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+#about{
+    background-image: linear-gradient(to right, #a517ba,#5f1178);
+}
+.contact-form-home{
+    border:2px #a517ba solid;
+    padding: 20px;
+    border-radius: 15px;
+}
+.SubmitBtn{
+    padding: 12px 24px;
+    background-image: linear-gradient(to right, #a517ba,#5f1178);
+    color: White;
+    border-radius: 6px;
+    border: 2px white solid;
+    transition: transform 250ms ease-in-out;
+    margin-left: auto;
+}
+.footer__social__ul li{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    color: linear-gradient(to right, #a517ba,#5f1178);
+}
+.social-icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-icon li{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.social-icon li a{
+    color: #a517ba;
+    font-size: 20px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
